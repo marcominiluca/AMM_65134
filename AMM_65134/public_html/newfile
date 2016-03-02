@@ -1,0 +1,12 @@
+Task 1
+
+Aprire il terminale e connettersi al server spano.sc.unica.it tramite il comando
+
+telnet spano.sc.unica.it 80
+
+Una volta connessi al server, digitare una semplice richiesta della pagina /httpTest/index.php sul server
+
+GET /httpTest/index.php HTTP/1.1
+host: spano.sc.unica.it
+
+Dopo aver scritto la richiesta inviatela premendo due volte invio. Perché è necessario farlo?
