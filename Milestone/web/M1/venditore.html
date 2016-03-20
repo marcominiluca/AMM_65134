@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SmartShop Login</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Il miglior sito di e-commerce!">
+        <meta name="author" content="Luca Marcomini">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>SmartShop</h1>
+        <nav>
+            <ul>
+                <li><a href="descrizione.html">Descrizione</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="cliente.html">Cliente</a></li>
+                <li><a href="venditore.html">Venditore</a></li>
+            </ul>
+        </nav>
+        <h2>Inserisci il nuovo prodotto</h2><br>
+        <form method="POST">
+                <label for="nome">Inserisci</label>
+                <input type="text" name="nomeoggetto" id="nome" placeholder="Nome oggetto"/><br><br>
+                <label for="urlimg">Inserisci</label>
+                <input type="text" name="urlimmagine" id="urlimg" placeholder="Link immagine"/><br><br>
+                <label for="descrizione">Inserisci</label>
+                <textarea rows="4" cols="20" name="descrizione oggetto" id="descrizione" placeholder="Inserisci descrizione oggetto">
+                </textarea><br><br>
+                <label for="prezzo">Inserisci</label>
+                <input type="text" name="prezzooggetto" id="prezzo" placeholder="Prezzo oggetto"/><br><br>
+                <label for="quantita">Inserisci</label>
+                <input type="text" name="quantitaoggetto" id="quantita" placeholder="Quantità disponibile"/><br><br>
+                <input type="submit" value="Submit">
+        </form>
+    </body>
+</html>
