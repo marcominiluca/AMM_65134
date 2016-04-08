@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>SmartShop</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Il miglior sito di e-commerce!">
+        <meta name="author" content="Luca Marcomini">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="CSS/style.css" rel="stylesheet" type="text/css" media="screen">
+    </head>
+    <body>
+        <header>
+            <h1>SmartShop</h1>
+            <nav>
+                    <ul>
+                        <li><a href="descrizione.html">DESCRIZIONE</a></li>
+                        <li><a href="login.html">LOGIN</a></li>
+                        <li><a href="cliente.html">CLIENTE</a></li>
+                        <li><a href="venditore.html">VENDITORE</a></li>
+                    </ul>
+            </nav>
+        </header>
+        <div id="page">
+            <div id="sidebar1">
+                                    
+            </div>
+            <div id="content">
+                <div id="forms">
+                <h2>Inserisci il nuovo prodotto</h2>
+                <form method="POST">
+                        <label for="nome">Inserisci il nome del prodotto</label>
+                        <input type="text" name="nomeoggetto" id="nome" placeholder="Nome oggetto"/>
+                        <label for="urlimg">Inserisci il collegamento all'immagine</label>
+                        <input type="text" name="urlimmagine" id="urlimg" placeholder="Link immagine"/>
+                        <label for="descrizione">Inserisci una descrizione precisa dell'oggetto</label>
+                        <textarea rows="4" cols="20" name="descrizione oggetto" id="descrizione" placeholder="Inserisci descrizione oggetto">
+                        </textarea>
+                        <label for="prezzo">Inserisci il prezzo dell'oggetto</label>
+                        <input type="text" name="prezzooggetto" id="prezzo" placeholder="Prezzo oggetto"/>
+                        <label for="quantita">Inserisci la quantit&aacute; disponibile</label>
+                        <input type="text" name="quantitaoggetto" id="quantita" placeholder="Quantità disponibile"/>
+                        <div>
+                            <input type="submit" id="Submit" name="Submit" value="Submit">
+                        </div>
+                </form>
+                </div>
+            </div>
+            <div style="clear: both; width: 0px; height: 0px;"></div>
+            <footer>   
+                   <p>
+                        Luca Marcomini Matricola 65134
+                   </p>
+            </footer>
+        </div>
+    </body>
+</html>
